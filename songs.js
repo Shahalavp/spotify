@@ -2,7 +2,7 @@ let trendingSongs = [
     {
         id : 1,
         file : 'Audios/1.mp3',
-        img : '../images/trending songs/ishq jalakar.jpg',
+        img : '../images/trending songs/ishqjalakar.jpg',
         name : 'Ishq Jalakar-Karvaan (From"Dhurandhar")',
         details : 'Shashwat Sachdev, Shahzad Ali, Subhadeep...'
     },

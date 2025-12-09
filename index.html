@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+
+<body lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400..700&family=Lobster&family=Momo+Trust+Display&family=Roboto:ital,wght@0,100..900;1,100..900&family=Stack+Sans+Text:wght@200..700&display=swap"
+        rel="stylesheet">
+
+</head>
+<body>
+
+    <!-------------------------- navbar ----------------------------------->
+    <nav class="navbar navbar-expand-lg " style="background-color: black;">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="#"><i class="fa-brands fa-spotify ms-3" id="spotify-icon"></i></a>
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house mt-1"
+                            id="home-icon"></i></a>
+                </li>
+
+                <div class="search-container" id="search-box">
+                    <i class="fas fa-search search-icon ps-4" id="search-icon"></i>
+                    <input type="text" class="search-input ms-4 p-2" placeholder="What do you want to play?">
+                    <i class="fa-solid fa-folder-open ms-2" id="browser-icon"></i>
+                </div>
+            </ul>
+
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link" id="premium" aria-current="page" href="#">Premium</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="support" aria-current="page" href="#">Support</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="download" aria-current="page" href="#">Download</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="line" href="#">|</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="install" aria-current="page" href="#"><i
+                            class="fa-solid fa-download"></i>Install App</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="signup" aria-current="page" href="#">Sign up</a>
+                </li>
+            </ul>
+
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end" id="login-button">
+                <button class="green-btn  me-md-2 p-2" id="login" type="button">Log In</button>
+            </div>
+
+        </div>
+    </nav>
+
+
+
+
+    <!-- ----------------------- Main Section -------------------------- -->
+    <div class="main-section" style="background-color: black; color: rgb(207, 212, 216)">
+
+        <!----------- left-section ----------->
+        <div class="container" id="left-section">
+            <div class="letf-first p-4">
+                <h6>Your Library</h6>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+
+            <div class="container" id="left-scroll-section">
+                <div class="letf-second p-3 mt-2">
+                    <h6>Create Your first playlist</h6>
+                    <p>it's easy,we'll help you</p>
+                    <button type="button" id="podcasts-btn" class="btn btn-light py-1">Create playlist</button>
+                </div>
+
+                <div class="letf-third mt-4 p-3">
+                    <h6>Let's find some podcasts to follow</h6>
+                    <p>We'll keep you updated on new episodes</p>
+                    <button type="button" id="podcasts-btn" class="btn btn-light py-1">Browse podcasts</button>
+                </div>
+            </div>
+
+            <div class="letf-fourth">
+                <footer class="text-center text-lg-start">
+                    <div class="container p-4">
+
+                        <div class="row">
+                            <ul class="nav" id="fourth-list-one">
+                                <li class="nav-item">
+                                    <a class="nav-link" id="links" href="#">Legal</a>
+                                </li>
+                                <li class="nav-item" id="hello">
+                                    <a class="nav-link" id="links" href="#">Safety&Privacy Center</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="links" href="#">Privacy Policy</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="links" href="#">Cookies</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="row">
+                            <ul class="nav" id="fourth-list-two">
+                                <li class="nav-item">
+                                    <a class="nav-link" id="links" href="#">About Ads</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="links" href="#">Accessibility</a>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                        <a class="link-offset-2 link-offset-3-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                            id="fourth-list-three" href="#">Cookies</a> <br>
+                        <button type="button" id="english-btn" class="btn btn-outline-light mt-4 py-1"><i
+                                class="fa-solid fa-globe mx-1"></i>English</button>
+
+                    </div>
+                </footer>
+            </div>
+        </div>
+
+
+
+        <!------------ right-section ------------>
+        <div class="" id="right-section">
+
+            <div class="m-3">
+                <div class="right-section-nav m-3">
+                    <h4><a class="link-offset-2 link-offset-3-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                            id="trending-title" href="#">Trending songs</a></h4>
+                    <p><a class="nav-link" id="show-all" href="#">Show all</a></p>
+                </div>
+
+                <div class="" id="trending-cards">  </div>
+            </div>
+
+
+            <div class="m-3">
+                <div class="right-section-nav m-3">
+                    <h4><a class="link-offset-2 link-offset-3-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                            id="artists-title" href="#">Popular artists</a></h4>
+                    <p><a class="nav-link" id="links" href="#">Show all</a></p>
+                </div>
+
+                <div class="" id="artist-cards"></div>
+            </div>
+
+
+            <div class="m-3">
+                <div class="right-section-nav m-3">
+                    <h4><a class="link-offset-2 link-offset-3-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                            id="albums-title" href="#">Popular albums and singles</a></h4>
+                    <p><a class="nav-link" id="links" href="#">Show all</a></p>
+                </div>
+
+                <div class="" id="albums-cards">   </div>
+            </div>
+
+
+            <div class="m-3">
+                <div class="right-section-nav m-3">
+                    <h4><a class="link-offset-2 link-offset-3-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                            id="radio-title" href="#">Popular radio</a></h4>
+                    <p><a class="nav-link" id="links" href="#">Show all</a></p>
+                </div>
+
+                <div class="" id="music-cards">
+                    <div class="cols cols1 m-1">
+                        <div class="box box1">
+                            <div class="image-container">
+                                <img src="./images/popular radio/arijith singh.jpeg" alt="">
+                                <button type="button" class="green-btn" id="">
+                                    <i class="play-music fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                            <p class="radio-details">With Sachin-Jigar, Pritam, Jeet Gannguli and more</p>
+                        </div>
+                    </div>
+                    <div class="cols cols1 m-1">
+                        <div class="box box1">
+                            <div class="image-container">
+                                <img src="./images/popular radio/kk.jpeg" alt="">
+                                <button type="button" class="green-btn" id="">
+                                    <i class="play-music fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                            <p class="radio-details">With Pritam, Ankit Tiwari, Shaarib Toshi and more</p>
+                        </div>
+                    </div>
+                    <div class="cols cols1 m-1">
+                        <div class="box box1">
+                            <div class="image-container">
+                                <img src="./images/popular radio/shreya.jpeg" alt="">
+                                <button type="button" class="green-btn" id="">
+                                    <i class="play-music fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                            <p class="radio-details">With A.R. Rahman, Atif Aslam, Arijit Singh and more</p>
+                        </div>
+                    </div>
+                    <div class="cols cols1 m-1">
+                        <div class="box box1">
+                            <div class="image-container">
+                                <img src="./images/popular radio/alka.jpeg" alt="">
+                                <button type="button" class="green-btn" id="">
+                                    <i class="play-music fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                            <p class="radio-details">With Vinod Rathod, Kumar Sanu, Jatin-Lalit and more</p>
+                        </div>
+                    </div>
+                    <div class="cols cols1 m-1">
+                        <div class="box box1">
+                            <div class="image-container">
+                                <img src="./images/popular radio/diljit.jpeg" alt="">
+                                <button type="button" class="green-btn" id="">
+                                    <i class="play-music fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                            <p class="radio-details">With Shubh, Karan Aujla, AP Dhillon and more</p>
+                        </div>
+                    </div>
+                    <div class="cols cols1 m-1">
+                        <div class="box box1">
+                            <div class="image-container">
+                                <img src="./images/popular radio/ar rahman.jpeg" alt="">
+                                <button type="button" class="green-btn" id="">
+                                    <i class="play-music fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                            <p class="radio-details">With Chinmayi, Arijit Singh, Unnikrishnan and more</p>
+                        </div>
+                    </div>
+                    <div class="cols cols1 m-1">
+                        <div class="box box1">
+                            <div class="image-container">
+                                <img src="./images/popular radio/yo yo.jpeg" alt="">
+                                <button type="button" class="green-btn" id="">
+                                    <i class="play-music fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                            <p class="radio-details">With Pritam, Harrdy Sandhu, Himesh...</p>
+                        </div>
+                    </div>
+                    <div class="cols cols1 m-1">
+                        <div class="box box1">
+                            <div class="image-container">
+                                <img src="./images/popular radio/sidhu.jpeg" alt="">
+                                <button type="button" class="green-btn" id="">
+                                    <i class="play-music fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                            <p class="radio-details">With Shubh, AP Dhillon, Prem Dhillon and more</p>
+                        </div>
+                    </div>
+                    <div class="cols cols1 m-1">
+                        <div class="box box1">
+                            <div class="image-container">
+                                <img src="./images/popular radio/kishore.jpeg" alt="">
+                                <button type="button" class="green-btn" id="">
+                                    <i class="play-music fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                            <p class="radio-details">With Mukesh, Hemant Kumar, Tabassum and more</p>
+                        </div>
+                    </div>
+                    <div class="cols cols1 m-1">
+                        <div class="box box1">
+                            <div class="image-container">
+                                <img src="./images/popular radio/kumar sanu.jpeg" alt="">
+                                <button type="button" class="green-btn" id="">
+                                    <i class="play-music fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                            <p class="radio-details">With Jatin-Lalit, Vinod Rathod, Alka Yagnik and more</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="m-3">
+                <div class="right-section-nav m-3">
+                    <h4><a class="link-offset-2 link-offset-3-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                            id="charts-title" href="#">Featured Charts</a></h4>
+                    <p><a class="nav-link" id="links" href="#">Show all</a></p>
+                </div>
+
+                <div class="" id="music-cards">
+                    <div class="cols cols1 m-1">
+                        <div class="box box1">
+                            <div class="image-container">
+                                <img src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_global_default.jpg"
+                                    alt="">
+                                <button type="button" class="green-btn" id="">
+                                    <i class="play-music fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                            <p class="charts-details">Your weekly update of the most played tracks right...</p>
+                        </div>
+                    </div>
+                    <div class="cols cols1 m-1">
+                        <div class="box box1">
+                            <div class="image-container">
+                                <img src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_in_default.jpg"
+                                    alt="">
+                                <button type="button" class="green-btn" id="">
+                                    <i class="play-music fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                            <p class="charts-details">Your weekly update of the most played tracks right...</p>
+                        </div>
+                    </div>
+                    <div class="cols cols1 m-1">
+                        <div class="box box1">
+                            <div class="image-container">
+                                <img src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_global_default.jpg"
+                                    alt="">
+                                <button type="button" class="green-btn" id="">
+                                    <i class="play-music fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                            <p class="charts-details">Your daily update of the most played tracks right...</p>
+                        </div>
+                    </div>
+                    <div class="cols cols1 m-1">
+                        <div class="box box1">
+                            <div class="image-container">
+                                <img src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_in_default.jpg"
+                                    alt="">
+                                <button type="button" class="green-btn" id="">
+                                    <i class="play-music fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                            <p class="charts-details">Your daily update of the most played tracks right...</p>
+                        </div>
+                    </div>
+                    <div class="cols cols1 m-1">
+                        <div class="box box1">
+                            <div class="image-container">
+                                <img src="https://charts-images.scdn.co/assets/locale_en/viral/daily/region_global_default.jpg"
+                                    alt="">
+                                <button type="button" class="green-btn" id="">
+                                    <i class="play-music fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                            <p class="charts-details">Your daily update of the most viral tracks right now...</p>
+                        </div>
+                    </div>
+                    <div class="cols cols1 m-1">
+                        <div class="box box1">
+                            <div class="image-container">
+                                <img src="https://charts-images.scdn.co/assets/locale_en/viral/daily/region_in_large.jpg"
+                                    alt="">
+                                <button type="button" class="green-btn" id="">
+                                    <i class="play-music fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                            <p class="charts-details">Your daily update of the most viral tracks right now...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!----------- main-section-footer ----------->
+            <footer class="container mt-5">
+                <section class="container" id="main-footer">
+
+                    <div class="row">
+                        <span class="border-top mb-5 mt-2" id="border"></span>
+
+                        <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                            <p class="footer-heading mt-3">Company</p>
+                            <ul class="list-unstyled mb-0" id="footer-details">
+                                <li>
+                                    <a class="link-offset-2 link-offset-3-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                                        id="links" href="#">About</a>
+                                </li>
+                                <li>
+                                    <a class="link-offset-2 link-offset-3-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                                        id="links" href="#">Jobs</a>
+                                </li>
+                                <li>
+                                    <a class="link-offset-2 link-offset-3-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                                        id="links" href="#">For the Record</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                            <p class="footer-heading mt-3">Communities</p>
+                            <ul class="list-unstyled mb-0" id="footer-details">
+                                <li>
+                                    <a class="link-offset-2 link-offset-3-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                                        id="links" href="#">For Artists</a>
+                                </li>
+                                <li>
+                                    <a class="link-offset-2 link-offset-3-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                                        id="links" href="#">Developers</a>
+                                </li>
+                                </li>
+                                <li>
+                                    <a class="link-offset-2 link-offset-3-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                                        id="links" href="#">Advertising</a>
+                                </li>
+                                </li>
+                                <li>
+                                    <a class="link-offset-2 link-offset-3-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                                        id="links" href="#">Investors</a>
+                                </li>
+                                </li>
+                                <li>
+                                    <a class="link-offset-2 link-offset-3-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                                        id="links" href="#">Vendors</a>
+                                </li>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                            <p class="footer-heading mt-3">Useful links</p>
+                            <ul class="list-unstyled mb-0" id="footer-details">
+                                <li>
+                                    <a class="link-offset-2 link-offset-3-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                                        id="links" href="#">Support</a>
+                                </li>
+                                </li>
+                                <li>
+                                    <a class="link-offset-2 link-offset-3-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                                        id="links" href="#">Free Mobile App</a>
+                                </li>
+                                </li>
+                                <li>
+                                    <a class="link-offset-2 link-offset-3-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                                        id="links" href="#">Popular by Country</a>
+                                </li>
+                                </li>
+                                <li>
+                                    <a class="link-offset-2 link-offset-3-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                                        id="links" href="#">Import your music</a>
+                                </li>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                            <p class="footer-heading mt-3">Spotify Plans</p>
+                            <ul class="list-unstyled mb-0" id="footer-details">
+                                <li>
+                                    <a class="link-offset-2 link-offset-3-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                                        id="links" href="#">Premium Lite</a>
+                                </li>
+                                </li>
+                                <li>
+                                    <a class="link-offset-2 link-offset-3-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                                        id="links" href="#">Premium Standard</a>
+                                </li>
+                                </li>
+                                <li>
+                                    <a class="link-offset-2 link-offset-3-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                                        id="links" href="#">Premium Platinum</a>
+                                </li>
+                                </li>
+                                <li>
+                                    <a class="link-offset-2 link-offset-3-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                                        id="links" href="#">Premium Student</a>
+                                </li>
+                                </li>
+                                <li>
+                                    <a class="link-offset-2 link-offset-3-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                                        id="links" href="#">Spotify Free</a>
+                                </li>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                            <ul class="list-unstyled mb-0" id="social-links">
+                                <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!"
+                                    id="social-media" role="button"><i class="fab fa-instagram py-2"></i></a>
+                                <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!"
+                                    id="social-media" role="button"><i class="fab fa-twitter py-2"></i></a>
+                                <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!"
+                                    id="social-media" role="button"><i class="fab fa-facebook-f py-2"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <span class="border-bottom mt-5" id="border"></span>
+                    </div>
+                </section>
+
+                <!-- Copyright -->
+                <div class="copyright ps-3">
+                    <p class="my-5">© 2025 Spotify AB</p>
+                </div>
+            </footer>
+        </div>
+
+    </div>
+
+
+
+
+    <!-------------- player section ---------------->
+    <div class="play-section-nav" id="player-section" style="background-color: black; display:none;">
+        <div class="player-container">
+
+            <!------- left section ------->
+            <div class="player-first-section">
+                <img src="" id="player-song-img">
+                <div class="player-img-details">
+                    <p id="p1"></p>
+                    <p id="p2"></p>
+                </div>
+            </div>
+
+            <!------- center section ----->
+            <div class="player-second-section">
+                <div class="music-icons">
+                    <i class="fa-solid fa-shuffle" id="shuffle"></i>
+                    <i class="fa-solid fa-backward-step" id="backward-step"></i>
+                    <i class="fa-solid fa-circle-play" id="play"></i>
+                    <i class="fa-solid fa-forward-step" id="forward-step"></i>
+                    <i class="fa-solid fa-repeat" id="repeat"></i>
+                </div>
+                <input type="range" id="range1" value="0">
+            </div>
+
+            <!------- right section -------->
+            <div class="player-third-section"></div>
+
+        </div>
+    </div>
+
+
+
+
+    <!-- -------------------------- Footer ------------------------ -->
+    <div class="gradient-banner" id="preview-footer">
+        <div class="footer-container">
+            <div class="preview-text">
+                <p class="header-text">Preview of Spotify</p>
+                <p class="sub-text">Sign up to get unlimited songs and podcasts with occasional ads. No credit card
+                    needed.</p>
+            </div>
+
+            <button class="sign-up-btn" id="free-btn" type="button">
+                Sign up for free
+            </button>
+        </div>
+    </div>
+
+
+
+
+    <script src="songs.js"></script>
+    <script src="app.js"></script>
+
+
+
+    <script>
+
+        const artistContainer = document.getElementById('artist-cards')
+        artists.forEach(artist => {
+            artistContainer.innerHTML += `
+            <a href="/artist.html?id=${artist.id}" class="artist-link">
+                <div class="cols cols1 m-1">
+                    <div class="box box1">
+                        <div class="image-container">
+                            <img id="artist-img" src="${artist.img}" alt="">
+                            
+                            <button type="button" class="green-btn">
+                                <i class="play-music fa-solid fa-play"></i>
+                            </button>
+                            
+                        </div>
+                        <p class="artist-name">${artist.name}</p>
+                        <p class="artist-details">${artist.details}</p>
+                    </div>
+                </div>
+            </a>
+        `
+        });
+
+        let trendingContainer = document.getElementById("trending-cards");
+        trendingSongs.forEach((song, i) => {
+            trendingContainer.innerHTML += `
+                <div class="cols cols1 m-1">
+                    <div class="box box1">
+                        <div class="image-container">
+                            <img src="${song.img}" alt="">
+
+                            <button type="button" class="green-btn">
+                                <i class="play-music fa-solid fa-play"
+                                data-index="${i}" data-category="trending"></i>
+                            </button>
+
+                        </div>
+                        <p class="music-name">${song.name}</p>
+                        <p class="music-details">${song.details}</p>
+                    </div>
+                </div>
+            `;
+        });
+
+        let albumsContainer = document.getElementById("albums-cards");
+        popularAlbums.forEach((album, i) => {
+            albumsContainer.innerHTML += `
+                <div class="cols cols1 m-1">
+                    <div class="box box1">
+                        <div class="image-container">
+                            <img src="${album.img}" alt="">
+                            
+                            <button type="button" class="green-btn">
+                                <i class="play-music fa-solid fa-play"
+                                data-index="${i}" data-category="albums"></i>
+                            </button>
+                        
+                        </div>
+                        <p class="albums-name">${album.name}</p>
+                        <p class="albums-details">${album.details}</p>
+                    </div>
+                </div>
+            `;
+        });
+
+    </script>
+
+</body>
+</html>

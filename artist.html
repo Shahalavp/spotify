@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400..700&family=Lobster&family=Momo+Trust+Display&family=Roboto:ital,wght@0,100..900;1,100..900&family=Stack+Sans+Text:wght@200..700&display=swap"
+        rel="stylesheet">
+
+</head>        
+<body>
+
+    <!-------------------------- navbar ----------------------------------->
+    <nav class="navbar navbar-expand-lg " style="background-color: black;">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="#"><i class="fa-brands fa-spotify ms-3" id="spotify-icon"></i></a>
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house mt-1"
+                            id="home-icon"></i></a>
+                </li>
+
+                <div class="search-container" id="search-box">
+                    <i class="fas fa-search search-icon ps-4" id="search-icon"></i>
+                    <input type="text" class="search-input ms-4 p-2" placeholder="What do you want to play?">
+                    <i class="fa-solid fa-folder-open ms-2" id="browser-icon"></i>
+                </div>
+            </ul>
+
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link" id="premium" aria-current="page" href="#">Premium</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="support" aria-current="page" href="#">Support</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="download" aria-current="page" href="#">Download</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="line" href="#">|</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="install" aria-current="page" href="#"><i
+                            class="fa-solid fa-download"></i>Install App</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="signup" aria-current="page" href="#">Sign up</a>
+                </li>
+            </ul>
+
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end" id="login-button">
+                <button class="green-btn  me-md-2 p-2" id="login" type="button">Log In</button>
+            </div>
+
+        </div>
+    </nav>
+
+
+
+    <!-- ----------------------- Main Section -------------------------- -->
+    <div class="main-section" style="background-color: black; color: rgb(207, 212, 216)">
+
+        <!----------- left-section ----------->
+        <div class="container" id="left-section">
+            <div class="letf-first p-4">
+                <h6>Your Library</h6>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+
+            <div class="container" id="left-scroll-section">
+                <div class="letf-second p-3 mt-2">
+                    <h6>Create Your first playlist</h6>
+                    <p>it's easy,we'll help you</p>
+                    <button type="button" id="podcasts-btn" class="btn btn-light py-1">Create playlist</button>
+                </div>
+
+                <div class="letf-third mt-4 p-3">
+                    <h6>Let's find some podcasts to follow</h6>
+                    <p>We'll keep you updated on new episodes</p>
+                    <button type="button" id="podcasts-btn" class="btn btn-light py-1">Browse podcasts</button>
+                </div>
+            </div>
+
+            <div class="letf-fourth">
+                <footer class="text-center text-lg-start">
+                    <div class="container p-4">
+
+                        <div class="row">
+                            <ul class="nav" id="fourth-list-one">
+                                <li class="nav-item">
+                                    <a class="nav-link" id="links" href="#">Legal</a>
+                                </li>
+                                <li class="nav-item" id="hello">
+                                    <a class="nav-link" id="links" href="#">Safety&Privacy Center</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="links" href="#">Privacy Policy</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="links" href="#">Cookies</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="row">
+                            <ul class="nav" id="fourth-list-two">
+                                <li class="nav-item">
+                                    <a class="nav-link" id="links" href="#">About Ads</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="links" href="#">Accessibility</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <a class="link-offset-2 link-offset-3-hover link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover"  id="fourth-list-three" href="#">Cookies</a> <br>
+                        <button type="button" id="english-btn" class="btn btn-outline-light mt-4 py-1"><i class="fa-solid fa-globe mx-1"></i>English</button>
+
+                    </div>
+                </footer>
+            </div>
+        </div>
+
+
+
+        <!------------ right-section ------------>
+        <div class="" id="right-section">
+
+            <div class="container-fluid p-0">
+                <div class="artist-header">
+                    <div class="verified-badge">✔ Verified Artist</div>
+                    <h1></h1>
+                    <div class="artist-info"> </div>
+                </div>
+
+                <div class="controls-bar">
+                    <div class="play-button">
+                        <span style="font-size: 28px; color: black; margin-left: 4px;">▶</span>
+                    </div>
+                    <button class="follow-button">FOLLOW</button>
+                    <span class="more-actions">...</span>
+                </div>
+                
+                <div class="section-title">Popular</div>
+                
+                <div class="song-list"></div>   
+            </div>
+             
+        </div>
+
+    </div>
+
+
+
+    <!-------------- player section ---------------->
+    <div class="play-section-nav" id="player-section" style="background-color: black; display:none;">
+        <div class="player-container">
+            
+            <!------- left section ------->
+            <div class="player-first-section">
+                <img src="" id="player-song-img">
+                <div class="player-img-details">
+                    <p id="p1"></p>
+                    <p id="p2"></p>
+                </div>
+            </div>
+
+            <!------- center section ------->
+            <div class="player-second-section">
+                <div class="music-icons">
+                    <i class="fa-solid fa-shuffle" id="shuffle"></i>
+                    <i class="fa-solid fa-backward-step" id="backward-step"></i>
+                    <i class="fa-solid fa-circle-play" id="play"></i>
+                    <i class="fa-solid fa-forward-step" id="forward-step"></i>
+                    <i class="fa-solid fa-repeat" id="repeat"></i>
+                </div>
+                <input type="range" id="range1" value="0">
+            </div>
+
+            <!------- right section ------->
+            <div class="player-third-section"></div>
+
+        </div>
+    </div>
+
+
+
+
+    <!-- -------------------------- Footer ------------------------ -->
+    <div class="gradient-banner" id="preview-footer">
+        <div class="footer-container">
+            <div class="preview-text">
+                <p class="header-text">Preview of Spotify</p>
+                <p class="sub-text">Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+            </div>
+
+            <button class="sign-up-btn" id="free-btn" type="button">
+                Sign up for free
+            </button>
+        </div>
+    </div>
+
+
+    
+
+    <!-- javascript -->
+    <script src="songs.js"></script>
+    <script src="app.js"></script>
+
+
+
+    <script>
+
+        const urlParams = new URLSearchParams(window.location.search)
+        const artistId = parseInt(urlParams.get('id'))
+
+        const artist = artists.find(a => a.id === artistId)
+        if(!artist){
+            console.log('Artist not Found!');
+        }else{
+            document.querySelector('.artist-header').style.backgroundImage =
+                `linear-gradient(to top, rgba(18,18,18,1), rgba(88,62,42,0.7)),
+                url('${artist.backgroundImg}')`;
+
+            document.querySelector('.artist-header h1').textContent = artist.name
+
+            document.querySelector('.artist-info').textContent = 
+                (artist.monthlyListeners) + ' monthly listeners'
+
+            const songList = document.querySelector('.song-list')
+            songList.innerHTML = '';
+
+            artist.songs.forEach((song,index) => {
+                songList.innerHTML += `
+
+                    <div class="track-list-item" data-index="${index}">
+                        <div class="track-rank">${index+1}</div>
+
+                        <img src="${song.img}" alt="Apna Bana Le cover" class="track-cover">
+                        <div class="track-details">
+                            <div class="track-title">${song.title}</div>
+                        </div>
+                        <div class="track-plays d-none d-md-block">${song.plays}</div>
+                        <div class="track-duration">${song.duration}</div>
+                        <span class="more-actions">...</span>
+                    </div>
+                ` ;
+            });
+        }
+        
+    </script>
+
+</body>
+</html>

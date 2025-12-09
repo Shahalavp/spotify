@@ -157,6 +157,7 @@ let artists = [
         songs: [
             {
                 title: "Ye Tune Kya Kiya",
+                details : 'Pritam',
                 img : "http://www.koimoi.com/wp-content/new-galleries/2013/06/Sonakshi-Sinha-In-Mumbaai-Dobaara-Movie-Poster.jpg",
                 file: "./Audios/pritam/ye-tune.mp3",
                 plays: "344,034,602",
@@ -164,6 +165,7 @@ let artists = [
             },
             {
                 title: "Raabta",
+                details : 'Pritam',
                 img : "https://i.scdn.co/image/ab67616d0000b273ece89c7bf7d8141a1e8eef42",
                 file: "./Audios/pritam/raabta.mp3",
                 plays: "308,325,513",
@@ -171,6 +173,7 @@ let artists = [
             },
             {
                 title: "Tum Se Hi",
+                details : 'Pritam',
                 img : "https://i1.sndcdn.com/artworks-GNKP5uM8Cm9yByN9-CqACgA-t1080x1080.jpg",
                 file: "./Audios/pritam/tum-se-hi.mp3",
                 plays: "495,227,963",
@@ -178,6 +181,7 @@ let artists = [
             },
             {
                 title: "Zara Sa",
+                details : 'Pritam',
                 img : "https://lh3.googleusercontent.com/_MOrJlsK49oeeIQbWaN_3LsrCCOPUWWP1S7w1cyFfs-gFoN0p1kP62wCwJxyJJce6EVIBVKCQvLHjsRE",
                 file: "./Audios/pritam/zara-sa.mp3",
                 plays: "278,490,934",
@@ -185,6 +189,7 @@ let artists = [
             },
             {
                 title: "Tera Hone Laga Hoon",
+                details : 'Pritam',
                 img : "https://tse3.mm.bing.net/th/id/OIP.RVhsnJxwiLwAKNUSu1nnEwHaHa?pid=Api&P=0&h=220",
                 file: "./Audios/pritam/tera-hone-laga.mp3",
                 plays: "385,418,502",
@@ -192,6 +197,7 @@ let artists = [
             },
             {
                 title: "Ae Dil Hai Mushkil Title Track",
+                details : 'Pritam',
                 img : "https://c.saavncdn.com/257/Ae-Dil-Hai-Mushkil-Hindi-2016-500x500.jpg",
                 file: "./Audios/pritam/ae-dil-hai-mushkil.mp3",
                 plays: "343,730,627",
@@ -209,6 +215,7 @@ let artists = [
         songs: [
             {
                 title: "Agar Tum Saath Ho",
+                details : 'A.R.Rahman',
                 img: "https://ts13.tarafdari.com/contents/user760078/content-sound/ab67616d0000b273e211a32490d19aa970956a7d.jpeg.jpg",
                 file: "./Audios/arrahman/agar-tum.mp3",
                 plays: "625,878,753",
@@ -216,6 +223,7 @@ let artists = [
             },
             {
                 title: "Tere Bina",
+                details : 'A.R.Rahman',
                 img: "https://i.ytimg.com/vi/gIuKdMENCFU/maxresdefault.jpg",
                 file: "./Audios/arrahman/tere-bina.mp3",
                 plays: "323,623,682",
@@ -223,6 +231,7 @@ let artists = [
             },
             {
                 title: "Tum Tak ",
+                details : 'A.R.Rahman',
                 img: "https://images.hungama.com/c/1/98b/5c1/47761596/47761596_300x300.jpg",
                 file: "./Audios/arrahman/tum-tak.mp3",
                 plays: "193,830,738",
@@ -230,6 +239,7 @@ let artists = [
             },
             {
                  title: "Enna Sona",
+                 details : 'A.R.Rahman',
                 img: "https://tse3.mm.bing.net/th/id/OIP.kADLBSevjCpo5K5Bggwc0AHaHa?pid=Api&P=0&h=220",
                 file: "./Audios/arrahman/enna-sona.mp3",
                 plays: "275,779,423",
@@ -237,6 +247,7 @@ let artists = [
             },
             {
                 title: "Kun Faya Kun",
+                details : 'A.R.Rahman',
                 img: "https://www.statuszon.com/wp-content/uploads/2024/05/Kun-Faya-Kun-Song-Status-Video-Download.jpg",
                 file: "./Audios/arrahman/kun-faya-kun..mp3",
                 plays: "233,742,618",
@@ -244,6 +255,7 @@ let artists = [
             },
             {
                 title: "Tere Ishk Mein",
+                details : 'A.R.Rahman',
                 img : "https://img.youtube.com/vi/LixDSK0BRFs/maxresdefault.jpg",
                 file: "./Audios/arrahman/tere-ishk.mp3",
                 plays: "21,763,013",
@@ -261,6 +273,7 @@ let artists = [
         songs: [
             {
                 title: "Apna Bana Le",
+                details : 'Arijit Singh',
                 img : "https://images.genius.com/fedfa21cfa1c80b76edaf47c1ca2c83d.1000x1000x1.png",
                 file: "./Audios/arijith/apna-bana-le.mp3",
                 plays: "563,474,080",
@@ -268,6 +281,7 @@ let artists = [
             },
             {
                 title: "Dhun (From 'Saiyaara')",
+                details : 'Arijit Singh',
                 img : "https://images.genius.com/a7ce3e387d4c2932300c44c7d5ff250a.1000x1000x1.png",
                 file: "./Audios/arijith/dhun.mp3",
                 plays: "105,714,933",
@@ -275,6 +289,7 @@ let artists = [
             },
             {
                 title: "Humdard",
+                details : 'Arijit Singh',
                 img : "https://www.makemykaraoke.com/images/detailed/31/Ek-Villain-Hamdard_zczp-1s.jpg",
                 file: "./Audios/arijith/humdard.mp3",
                 plays: "452,987,439",
@@ -282,6 +297,7 @@ let artists = [
             },
             {
                 title: "Zaalima",
+                details : 'Arijit Singh',
                 img : "https://pagalworldmusic.com/downloads/cover/54130/54130.jpg",
                 file: "./Audios/arijith/zaalima.mp3",
                 plays: "263,776,419",
@@ -289,6 +305,7 @@ let artists = [
             },
             {
                 title: "Mast Magan (From '2 States')",
+                details : 'Arijit Singh',
                 img : "https://i.ytimg.com/vi/C3ozV79htuE/maxresdefault.jpg",
                 file: "./Audios/arijith/mast-magan.mp3",
                 plays: "382,823,190",
@@ -296,6 +313,7 @@ let artists = [
             },
             {
                 title: "Tere Ishk Mein",
+                details : 'Arijit Singh',
                 img : "https://img.youtube.com/vi/LixDSK0BRFs/maxresdefault.jpg",
                 file: "./Audios/arijith/tere-ishk.mp3",
                 plays: "21,763,013",
@@ -313,6 +331,7 @@ let artists = [
         songs: [
             {
                 title: "Pardesiya",
+                details : 'Sachin-Jigar',
                 img : "https://a10.gaanacdn.com/gn_img/albums/oAJbDElKnL/JbD7l7llWn/size_m_1753860138.jpg",
                 file: "./Audios/sachin/pardesiya.mp3",
                 plays: "73,208,291",
@@ -320,6 +339,7 @@ let artists = [
             },
             {
                 title: "Jeene Laga Hoon",
+                details : 'Sachin-Jigar',
                 img : "https://lh3.googleusercontent.com/doGV5skt_oWWHhnBPx4ZeW2POhAB34yieia82DXVTVhOTmpFK0B68ljaPtMBAbeH6l9g29DiZKhmSchZTA",
                 file: "./Audios/sachin/jeene-laga-hoon.mp3",
                 plays: "233,571,898",
@@ -327,6 +347,7 @@ let artists = [
             },
             {
                 title: "Saibo",
+                details : 'Sachin-Jigar',
                 img : "https://a10.gaanacdn.com/gn_img/albums/MmqK5EKwRO/qK5ZkAwz3w/size_m.jpg",
                 file: "./Audios/sachin/saibo.mp3",
                 plays: "405,169,615",
@@ -334,6 +355,7 @@ let artists = [
             },
             {
                 title: "Tainu Khabar Nahi",
+                details : 'Sachin-Jigar',
                 img : "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d7/13/30/d713309e-4ca6-78ea-11d7-7236bc582c2b/8909024032504.png/1200x1200bf-60.jpg",
                 file: "./Audios/sachin/tainu-khabar.mp3",
                 plays: "199,021,926",
@@ -341,6 +363,7 @@ let artists = [
             },
             {
                 title: "Aaj Ki Raat",
+                details : 'Sachin-Jigar',
                 img : "https://downloads4djs.co.in/wp-content/uploads/2024/09/Aaj-Ki-Raat-Raj-Roy.jpg",
                 file: "./Audios/sachin/aaj-ki-raat.mp3",
                 plays: "281,355,902",
@@ -348,6 +371,7 @@ let artists = [
             },
             {
                 title: "Apna Bana Le",
+                details : 'Sachin-Jigar',
                 img : "https://images.genius.com/fedfa21cfa1c80b76edaf47c1ca2c83d.1000x1000x1.png",
                 file: "./Audios/sachin/apna-bana-le.mp3",
                 plays: "563,474,080",
@@ -365,6 +389,7 @@ let artists = [
         songs: [
             {
                 title: "Dil Diyan Gallan",
+                details : 'Vishal-Shekhar',
                 img : "https://a10.gaanacdn.com/gn_img/song/2lV3d1WRgB/V3d56QQoWR/size_m_1516003439.jpg",
                 file: "./Audios/vishal/dil-diyan.mp3",
                 plays: "381,154,144",
@@ -372,6 +397,7 @@ let artists = [
             },
             {
                 title: "Chammak Challo",
+                details : 'Vishal-Shekhar',
                 img : "https://timesofindia.indiatimes.com/photo/msid-66204421,imgsize-170518.cms",
                 file: "./Audios/vishal/chammak-challo.mp3",
                 plays: "315,161,396",
@@ -379,6 +405,7 @@ let artists = [
             },
             {
                 title: "Ajab Si",
+                details : 'Vishal-Shekhar',
                 img : "https://i.scdn.co/image/ab67616d0000b273d72340d8a3d3486d006064d7",
                 file: "./Audios/vishal/ajab-si.mp3",
                 plays: "361,645,359",
@@ -386,6 +413,7 @@ let artists = [
             },
             {
                 title: "Ishq Bulaava",
+                details : 'Vishal-Shekhar',
                 img : "https://lh3.googleusercontent.com/02tyQw9vukO2M0DMgqV0Adi0K-whtZh-4josSvWzsGu_ja-qC1Y--yLHnaNkZxrOTlJez-NrCaZMzV7N",
                 file: "./Audios/vishal/ishq-bulaava.mp3",
                 plays: "184,733,451",
@@ -393,6 +421,7 @@ let artists = [
             },
             {
                 title: "Nashe Si Chadh Gayi",
+                details : 'Vishal-Shekhar',
                 img : "https://melodytracks.com/image/cache/catalog/karaoke/1_karaoke_video_pic/nashe_sichadgayi_arijit-500x500.jpg",
                 file: "./Audios/vishal/nashe-si.mp3",
                 plays: "235,186,861",
@@ -400,6 +429,7 @@ let artists = [
             },
             {
                 title: "Ishq Sufiyana (Male)",
+                details : 'Vishal-Shekhar',
                 img : "https://tse4.mm.bing.net/th/id/OIP.FeDI9jKiN8J1UG67utHi-QHaHa?pid=Api&P=0&h=220",
                 file: "./Audios/vishal/ishq-wala.mp3",
                 plays: "169,948,487",
@@ -417,6 +447,7 @@ let artists = [
         songs: [
             {
                 title: "Dil Diyan Gallan",
+                details : 'Atif Aslam',
                 img : "https://a10.gaanacdn.com/gn_img/song/2lV3d1WRgB/V3d56QQoWR/size_m_1516003439.jpg",
                 file: "./Audios/atif/dil-diyan.mp3",
                 plays: "381,154,144",
@@ -424,6 +455,7 @@ let artists = [
             },
             {
                 title: "Jeene Laga Hoon",
+                details : 'Atif Aslam',
                 img : "https://lh3.googleusercontent.com/doGV5skt_oWWHhnBPx4ZeW2POhAB34yieia82DXVTVhOTmpFK0B68ljaPtMBAbeH6l9g29DiZKhmSchZTA",
                 file: "./Audios/atif/jeene-laga-hoon.mp3",
                 plays: "233,571,898",
@@ -431,6 +463,7 @@ let artists = [
             },
             {
                 title: "Tera Hone Laga Hoon",
+                details : 'Atif Aslam',
                 img : "https://tse3.mm.bing.net/th/id/OIP.RVhsnJxwiLwAKNUSu1nnEwHaHa?pid=Api&P=0&h=220",
                 file: "./Audios/atif/tera-hone-laga.mp3",
                 plays: "385,779,884",
@@ -438,6 +471,7 @@ let artists = [
             },
             {
                 title: "Tu Jaane Na",
+                details : 'Atif Aslam',
                 img : "https://i.ytimg.com/vi/P8PWN1OmZOA/maxresdefault.jpg",
                 file: "./Audios/atif/tu-jaane-na.mp3",
                 plays: "315,488,938",
@@ -445,6 +479,7 @@ let artists = [
             },
             {
                 title: "Pehli Dafa",
+                details : 'Atif Aslam',
                 img : "https://i.pinimg.com/736x/50/48/f5/5048f5d15a535dc9e2742117cfda59b9.jpg",
                 file: "./Audios/atif/pehli-dafa.mp3",
                 plays: "289,817,405",
@@ -452,6 +487,7 @@ let artists = [
             },
             {
                 title: "O Saathi",
+                details : 'Atif Aslam',
                 img : "https://a10.gaanacdn.com/gn_img/song/zLp36v3rGe/p36VLRXE3r/size_m_1520584095.jpg",
                 file: "./Audios/atif/o-saathi.mp3",
                 plays: "316,230,529",
@@ -469,6 +505,7 @@ let artists = [
         songs: [
             {
                 title: "Chaleya",
+                details : 'Anirudh Ravichander',
                 img: "https://a10.gaanacdn.com/gn_img/albums/4Z9bqgo3yQ/9bqZE26DKy/size_m.jpg",
                 file: "./Audios/anirudh/chaleya.mp3",
                 plays: "501,097,574",
@@ -476,6 +513,7 @@ let artists = [
             },
             {
                 title: "Chuttamalle",
+                details : 'Anirudh Ravichander',
                 img: "https://tse4.mm.bing.net/th/id/OIP.p0TcOPb0ua5TKElVA6N_CAHaHa?pid=Api&P=0&h=220",
                 file: "./Audios/anirudh/chuttamalle.mp3",
                 plays: "199,822,734",
@@ -483,6 +521,7 @@ let artists = [
             },
             {
                 title: "Powerhouse",
+                details : 'Anirudh Ravichander',
                 img: "https://tse2.mm.bing.net/th/id/OIP.wfsKkU0zomHU2LOZtnXBGQHaHa?pid=Api&P=0&h=220",
                 file: "./Audios/anirudh/powerhouse.mp3",
                 plays: "56,326,015",
@@ -490,6 +529,7 @@ let artists = [
             },
             {
                 title: "Monica",
+                details : 'Anirudh Ravichander',
                 img: "https://pagalworldmusic.com/downloads/cover/4573837/4573837.jpg",
                 file: "./Audios/anirudh/monica.mp3",
                 plays: "27,246,286",
@@ -508,6 +548,7 @@ let artists = [
         songs: [
             {
                 title: "Jo Tum Mere Ho",
+                details : 'Anuv Jain',
                 img: "https://tse3.mm.bing.net/th/id/OIP.UYaF0SSqAnPQsn6C0o6hBwHaHa?pid=Api&P=0&h=220",
                 file: "./Audios/anuv/jo-tum-mere.mp3",
                 plays: "467,882,783",
@@ -515,6 +556,7 @@ let artists = [
             },
             {
                 title: "Husn",
+                details : 'Anuv Jain',
                 img: "https://i.scdn.co/image/ab67616d0000b2730d3449f333a83a25feb423f8",
                 file: "./Audios/anuv/husn.mp3",
                 plays: "442,759,295",
@@ -522,6 +564,7 @@ let artists = [
             },
             {
                 title: "Baarishein",
+                details : 'Anuv Jain',
                 img: "https://images.genius.com/2b332d90bf3762033f01b57f6d6d0d96.1000x1000x1.jpg",
                 file: "./Audios/anuv/baarishein.mp3",
                 plays: "441,034,452",
@@ -529,6 +572,7 @@ let artists = [
             },
             {
                 title: "Alag Aasmaan",
+                details : 'Anuv Jain',
                 img: "https://a10.gaanacdn.com/gn_img/albums/2lV3d1WRgB/V3dZdAaLbR/size_m.jpg",
                 file: "./Audios/anuv/alag-aasmaan.mp3",
                 plays: "250,344,265",
@@ -546,6 +590,7 @@ let artists = [
         songs: [
             {
                 title: "Desi Kalakaar",
+                details : 'Yo Yo Honey Singh',
                 img: "https://a10.gaanacdn.com/gn_img/albums/7rVW1Rbk56/VW150A6LWk/size_m.jpg",
                 file: "./Audios/yoyo/desi-kalakaar.mp3",
                 plays: "261,787,999",
@@ -553,6 +598,7 @@ let artists = [
             },
             {
                 title: "Blue Eyes",
+                details : 'Yo Yo Honey Singh',
                 img: "https://m.media-amazon.com/images/M/MV5BMzdjOTZlYWYtNmQ3MC00NDFmLWE5NzctMDE2YjU5NGI1N2Q4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
                 file: "./Audios/yoyo/blue-eyes.mp3",
                 plays: "220,498,489",
@@ -560,6 +606,7 @@ let artists = [
             },
             {
                 title: "Love Dose",
+                details : 'Yo Yo Honey Singh',
                 img: "https://a10.gaanacdn.com/gn_img/albums/w4MKPObojg/MKPDBm6AKo/size_m.jpg",
                 file: "./Audios/yoyo/love-dose.mp3",
                 plays: "237,914,025",
@@ -567,6 +614,7 @@ let artists = [
             },
             {
                 title: "Payal",
+                details : 'Yo Yo Honey Singh',
                 img: "https://images.genius.com/5fc16694b2fcd0235f5d68fd5c9b4508.1000x1000x1.png",
                 file: "./Audios/yoyo/payal.mp3",
                 plays: "112,097,212",
@@ -584,6 +632,7 @@ let artists = [
         songs: [
             {
             title: "Mitwa",
+            details : 'Shankar-Ehsaan-Loy',
             img: "https://shubhachaki.com/wp-content/uploads/2025/03/1200x1200bf-60.jpg",
             file: "./Audios/shankar/mitwa.mp3",
             plays: "238,395,803",
@@ -591,6 +640,7 @@ let artists = [
         },
         {
             title: "O Rangrez",
+            details : 'Shankar-Ehsaan-Loy',
             img: "https://a10.gaanacdn.com/gn_img/albums/koMWQ7BKqL/MWQ4901E3q/size_m.jpg",
             file: "./Audios/shankar/o-rangrez.mp3",
             plays: "160,132,746",
@@ -598,6 +648,7 @@ let artists = [
         },
         {
             title: "Bol Na Halke Halke",
+            details : 'Shankar-Ehsaan-Loy',
             img: "https://lh3.googleusercontent.com/g-yXBV9gP3sNwiId-JqDGBChQRmtL5h_gA7eQtP7wIdZOtpzYLBUo3S83X51yaea7XyLn8SaSpi2D1c",
             file: "./Audios/shankar/bol-na-halke.mp3",
             plays: "173,131,266",
@@ -605,6 +656,7 @@ let artists = [
         },
         {
             title: "Tere Naina",
+            details : 'Shankar-Ehsaan-Loy',
             img: "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/11/c3/2d/11c32de2-54dd-492e-d63b-0f9bcc930ba4/196872318975.jpg/1200x1200bf-60.jpg",
             file: "./Audios/shankar/tere-naina.mp3",
             plays: "183,261,719",
@@ -612,6 +664,7 @@ let artists = [
         },
         {
             title: "Sajdaa",
+            details : 'Shankar-Ehsaan-Loy',
             img: "https://is5-ssl.mzstatic.com/image/thumb/Music125/v4/b1/2f/a4/b12fa417-a04f-eee5-f6d0-202a84698123/886446889825.jpg/1200x1200bf-60.jpg",
             file: "./Audios/shankar/sajdaa.mp3",
             plays: "140,619,668",
